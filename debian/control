@@ -1,0 +1,15 @@
+Source: xings-night-light
+Section: x11
+Priority: optional
+Maintainer: Matias De lellis <mati86dl@gmail.com>
+Build-Depends: debhelper (>= 9), intltool (>= 0.50), libxrandr-dev, libgtk-3-dev,
+ libstatusnotifier-dev, libnotify-dev
+Standards-Version: 3.9.2
+Vcs-Git: https://github.com/HuayraLinux/pkg-xings-night-light
+Vcs-Browser: https://github.com/HuayraLinux/pkg-xings-night-light
+Homepage: https://github.com/matiasdelellis/xings-night-light
+
+Package: xings-night-light
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: A daemon to automatically adjust the X11 screen temperature at night 

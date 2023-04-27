@@ -1,0 +1,3 @@
+version=3
+
+https://github.com/matiasdelellis/xings-night-light/releases .*/xings-night-light-?(\d\S*)\.tar\.bz2
